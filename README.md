@@ -8,20 +8,21 @@ MySQLに入って
 CREATE DATABASE database_system;
 ```
 
-## 学生
+## テーブルとデータ
 
-### テーブル
+### 学生
+#### テーブル
 
 ```
 mysql -u root database_system < ./gakusei_schema.sql
 ```
 
-### データ
+#### データ
 ```
 mysql -u root database_system < ./gakusei_data.sql
 ```
 
-### SQL
+## 本文中のSQL
 
 * p 67 Q4
 
